@@ -16,6 +16,7 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
+/*Encabezado*/
 header {
     display: flex;
     background-color: black;
@@ -70,6 +71,7 @@ a {
     color: white;
 }
 
+/* first section */
 .box {
     display: flex;
     flex-direction: row-reverse;
@@ -120,35 +122,132 @@ a {
 
 }
 
+/* second section */
 .box-2 {
     display: flex;
-    background-image: url(/assets/img/086aa1e226e5adfe010fd0fb3ff3e2cb.jpg);
+    flex-direction: column;
+    align-items: center;
     padding: 48px 142px;
+    gap: 24px;
+    background-image: url(/assets/img/086aa1e226e5adfe010fd0fb3ff3e2cb.jpg);
     background-size: cover;
     background-position: center;
-    justify-content: space-between;
-    align-items: center;
-    gap: 24px;
+    background-repeat: no-repeat;
 }
 
 .titule-1 {
-    background-color: white;
-    align-items: center;
     display: flex;
-    
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+
 }
 
+.befo-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+}
 
-.sub-t{
-    padding: 8px;
-}
-p{
-    padding: 8pxpx;
-}
 .card {
+    width: 316px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    text-align: center;
     gap: 16px;
     padding: 24px;
     border-radius: 8px;
 }
+
+.sub-t {
+    font-weight: 600;
+    font-size: 18px;
+    /* line-height: 24px; */
+    color: #1F1815;
+    text-align: center;
+}
+
+.p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1F1815;
+    text-align: center;
+
+}
+
+/* third section */
+
+.box-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titule-2 {
+    display: flex;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2A5B45;
+
+}
+
+.befo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    padding: 40px;
+}
+
+.card-1 {
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 31px;
+    border-radius: 8px;
+    border: 1px solid #D6D1CB;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.sub-tit {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1F1815;
+    text-align: center;
+}
+
+.cofe-butt {
+    background-color: #6A8D7D;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+.p-2{
+    text-decoration: underline ;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1F1815;
+    text-align: center;
+}
+/* fourth section */
