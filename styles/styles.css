@@ -382,3 +382,62 @@ a {
     text-decoration: underline;
     color: #1F1815;
 }
+
+/* Six section */
+.box-6 {
+    display: flex;
+    flex-direction: row;
+    background-color: #E3DED7;
+    padding: 0px 40px 0px 40px;
+    justify-content: space-around;
+}
+
+.sub-box {
+    display: flex;
+    flex-direction: column;
+    padding: 116px 24px 116px 0px;
+}
+
+.box-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0px 0px 32px 0px;
+
+}
+
+#paragraph-section6 {
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.paragraph-section6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6B7280;
+}
+
+.box-paragraph-2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6B7280;
+    padding: 0px 0px 24px 0px;
+}
+
+.box-direction {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6B7280;
+    padding: 0px 0px 19px 0px;
+}
+.box-image{
+    padding: 0px 0px 16px 0px; 
+}
+.box-email{
+    padding: 0px 0px px 0px; 
+}
+
+.box-data {
+    background-color: white;
+}
